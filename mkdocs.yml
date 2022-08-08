@@ -1,6 +1,8 @@
 site_name: Proyecto de Software 2022
 extra_javascript:
   - js/server-link.js
+extra_css:
+  - css/server-link.css
 theme:
   name: 'material'
   logo: images/logo.png

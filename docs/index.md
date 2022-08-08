@@ -13,12 +13,14 @@ Información de la infraestructura del servidor de la asignatura Proyecto de Sof
 ## Código en el server para cada grupo
 
 <label for="number">
-  \#<input type="number" min=0 step=1 value=0 class="md-input" id="number" pattern="[0-9]+">
-  
+  <strong>Número</strong>
+
+  <input type="number" min=0 step=1 value=0 class="md-input link" id="number" pattern="[0-9]+">
 </label>
 
-[Admin - Grupo #00](https://admin-grupo00.proyecto2022.linti.unlp.edu.ar/){ .md-button .md-button--primary #admin-link }
-[Portal - Grupo #00](https://grupo00.proyecto2022.linti.unlp.edu.ar/){ .md-button .md-button--primary #portal-link }
+[:material-link: Admin - Grupo #00](https://admin-grupo00.proyecto2022.linti.unlp.edu.ar/){ .md-button .md-button--primary .link #admin-link }
+
+[:material-link: Portal - Grupo #00](https://grupo00.proyecto2022.linti.unlp.edu.ar/){ .md-button .md-button--primary .link #portal-link }
 
 ## Logs
 
