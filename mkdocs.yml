@@ -30,7 +30,7 @@ theme:
 nav:
   - Inicio: index.md
   - Teorías: 01_teorias.md
-  - Práctica: 02_practicas.md
+  - Actividades: 02_actividades.md
   - Explicaciones: 03_explicaciones.md
   - Guías:
     - Comandos: guias/01_commands.md

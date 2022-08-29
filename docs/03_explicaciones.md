@@ -1,4 +1,3 @@
 # Explicaciones
 
-!!! Info
-    Aquí publicaremos material referido a las explicaciones prácticas. Aún no hay contenido.
+## [Clase 0 - Presentación + Tecnologías + Git/Gitlab :material-youtube:](https://youtu.be/O9FxTrEY1BI)
