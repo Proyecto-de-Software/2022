@@ -10,4 +10,5 @@
 	- [:material-file: Funciones, excepciones y objetos -cursada 2021](clase2_Python/clase_Python_cont_2021.pdf) )[:material-youtube:](https://www.youtube.com/watch?v=yEcDcOLF2fA)[:material-language-python:](clase2_Python/clase_Python_cont_2021.ipynb)
 	- [:material-file: Introducción a testing -cursada 2021](clase2_Python/clase_Python_testing.pdf) )[:material-youtube:](https://www.youtube.com/watch?v=CWo77mw0Vfw)[:material-language-python:](clase2_Python/clase_Python_testing.ipynb)
 	- [:material-file: Sugerencias de tipo -cursada 2021](clase2_Python/clase_Python_type_hints.pdf) [:material-youtube:](https://www.youtube.com/watch?v=vQXYmX-DQEo&feature=youtu.be)[:material-language-python:](clase2_Python/clase_Python_type_hints.ipynb)
-	
+- [Entornos virtuales](clase3_1) [:material-file:](clase3_1.pdf)
+- [Flask](clase3_2) [:material-file:](clase3_2.pdf)
