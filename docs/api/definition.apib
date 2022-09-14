@@ -1,5 +1,5 @@
 FORMAT: 1A
-HOST: https://grupoXX.proyecto2022.unlp.edu.ar
+HOST: https://admin-grupoXX.proyecto2022.unlp.edu.ar
 
 # Documentación API a implementar
 Documentación online de la api a realizar en el trabajo integrador de la materia
@@ -35,6 +35,9 @@ algún otro debido a la particularidades de la solución elegida deberán agrega
 + days: Lunes y Miércoles (string, required) - Días en los que se realiza la disciplina.
 + time: de 14 a 16hs (string, required) - Horario donde se realiza la disciplina.
 + teacher: Charlton Heston (string, required) - Nombre de persona a cargo de la misma.
+
+## DisciplinaListData (array)
++ (DisciplinaData)
 
 ## ClubData
 + email: clubdeportivovillaelisa@gmail.com (string, required) - Correo electrónico del club
@@ -92,7 +95,7 @@ Obtiene todas las disciplinas que se realizan en la entidad.
 <i class="fa fa-times"></i> Requiere autenticación
 
 + Response 200 (application/json)
-    + Attributes (DisciplinaData)
+    + Attributes (DisciplinaListData)
 
 # Group Autenticación
 
@@ -137,6 +140,25 @@ Obtiene toda la información del perfil del usuario autentificado.
 
 + Response 200 (application/json)
     + Attributes (PerfilData)
+    
+## Disciplinas del usuario actual [/api/me/disciplines]
+
+### Obtiene el listado de disciplinas del usuario [GET]
+
+Obtiene la lista de las disciplinas a las que está inscripto el usuario autentificado.
+
+**Información del endpoint**
+
+<i class="fa fa-check"></i> Requiere autenticación
+
++ Request
+    + Headers
+
+            Authorization: JWT <token>
+
++ Response 200 (application/json)
+    + Attributes (DisciplinaListData)
+
 ## Pagos del usuario actual [/api/me/payments]
 
 ### Obtiene el listado de pagos del usuario [GET]
