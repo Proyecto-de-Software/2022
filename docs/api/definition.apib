@@ -44,6 +44,28 @@ algún otro debido a la particularidades de la solución elegida deberán agrega
 + status: OK (string, required) - Valor del estado.
 + desciption: El socio no registra deuda ni sanción. (string, required) - Descripción del estado.
 
+## DocTypeData (enum)
++ `DNI`
++ `Libreta Cívica`
++ `Libreta de Enrolamiento`
+
+## GenderData (enum)
++ `Masculino`
++ `Femenino`
++ `Otros (Por favor especifica)`
++ `Prefiero no decir`
+
+## PerfilData
++ user: usarname (string, required) - Nombre de usuario.
++ email: username@mail.com (string, required) - Correco electrónico.
++ number: 2560 (string, required) - Número de socio.
++ document_type (DocTypeData) - Tipo de documento.
++ document_number: 35.555.555 (string, required) - Número de documento.
++ gender (GenderData) - Género.
++ gender_other: transgénero (string, required) - Género no listado.
++ address: 120 y 50 (string, optional) - Dirección.
++ phone: 221 1212-123 (string, optional) - Teléfono.
+
 # Group Club
 
 ## Información del club [/api/club/info]
@@ -99,7 +121,23 @@ Permite obtener el un JSON Web Token válido para el usuario y password.
 
 # Group Usuario
 
-## Pagos del usuario actual [/api/me/pagos]
+## Información de perfil [/api/me/profile]
+
+### Obtener información del usuario logeado [GET]
+
+Obtiene toda la información del perfil del usuario autentificado.
+
+**Información del endpoint**
+
+<i class="fa fa-check"></i> Requiere autenticación
++ Request
+    + Headers
+
+            Authorization: JWT <token>
+
++ Response 200 (application/json)
+    + Attributes (PerfilData)
+## Pagos del usuario actual [/api/me/payments]
 
 ### Obtiene el listado de pagos del usuario [GET]
 
@@ -133,7 +171,7 @@ Registra un nuevo pago para el usuario autentificado.
 + Response 200 (application/json)
     + Attributes (PagoListData)
 
-## Estado de socio del usuario actual [/api/me/carnet]
+## Estado de socio del usuario actual [/api/me/license]
 
 ### Obtiene el estado de credencial de socio [GET]
 
