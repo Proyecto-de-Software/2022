@@ -43,9 +43,10 @@ algún otro debido a la particularidades de la solución elegida deberán agrega
 + email: clubdeportivovillaelisa@gmail.com (string, required) - Correo electrónico del club
 + phone: `0221 487-0193` (string, required) - Teléfono del club
 
-## EstadoData
+## CarnetData
 + status: OK (string, required) - Valor del estado.
 + desciption: El socio no registra deuda ni sanción. (string, required) - Descripción del estado.
++ profile (PerfilData)
 
 ## DocTypeData (enum)
 + `DNI`
@@ -195,7 +196,7 @@ Registra un nuevo pago para el usuario autentificado.
 
 ## Estado de socio del usuario actual [/api/me/license]
 
-### Obtiene el estado de credencial de socio [GET]
+### Obtiene el estado de credencial de socio y la información del mismo [GET]
 
 Obtiene del socio y el estado de cuenta del usuario autentificado.
 
@@ -209,4 +210,4 @@ Obtiene del socio y el estado de cuenta del usuario autentificado.
             Authorization: JWT <token>
 
 + Response 200 (application/json)
-    + Attributes (EstadoData)
+    + Attributes (CarnetData)
