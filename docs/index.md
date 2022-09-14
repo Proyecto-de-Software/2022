@@ -8,7 +8,7 @@ Información de la infraestructura del servidor de la asignatura Proyecto de Sof
 ## Versiones a utilizar
 * Lenguaje: <strong>Python 3.10.4</strong>.
 * Servidor Web: <strong>Ngnix</strong>.
-* Servidor de Base de Datos: <strong></strong>.
+* Servidor de Base de Datos: <strong>PostgreSQL 13</strong>.
 
 ## Código en el server para cada grupo
 
