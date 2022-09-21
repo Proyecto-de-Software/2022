@@ -3,13 +3,15 @@
 Información de la infraestructura del servidor de la asignatura Proyecto de Software 2022.
 
 ## Infraestructura
+
 ![infraestructura](images/infraestructura.png)
 
 ## Versiones a utilizar
-* Lenguaje: <strong>Python 3.10.6</strong>.
-* Servidor Web: <strong>Ngnix 1.18.0-0ubuntu1.3</strong>.
-* Servidor de Base de Datos: <strong>PostgreSQL 13</strong>.
-* Node: <strong>v14.20.0 (npm 6.14.17)</strong>.
+
+- Lenguaje: <strong>Python 3.10.6</strong>.
+- Servidor Web: <strong>Ngnix 1.18.0-0ubuntu1.3</strong>.
+- Servidor de Base de Datos: <strong>PostgreSQL 13</strong>.
+- Node: <strong>v14.20.0 (npm 6.14.17)</strong>.
 
 ## Código en el server para cada grupo
 
@@ -26,20 +28,21 @@ Información de la infraestructura del servidor de la asignatura Proyecto de Sof
 ## Logs
 
 !!! Info
-    Pronto se publicarán los enlaces para poder visualizar los logs.
-    <!-- Enlaces a logs de la aplicación -->
+Pronto se publicarán los enlaces para poder visualizar los logs.
 
+<!-- Enlaces a logs de la aplicación -->
 
 ## Detalles de la infraestructura
 
-* En sus máquinas de desarrollo:
-    - Par de claves SSH.
-    - Repositorio Git Clonado.
-    - Dependencias instaladas con Poetry.
-    - Uso de ambiente de development (<strong>FLASK_ENV=development</strong>).
+- En sus máquinas de desarrollo:
 
-* En Gitlab:
-    - Repositorio Central de Git.
-    - El deploy de la aplicación se realizará automáticamente con cada push a master.
-    - Para que se pueda realizar correctamente tenga en cuenta las definiciones
-      de la cátedra respecto a los requisitos que debe cumplir el proyecto.
+  - Par de claves SSH.
+  - Repositorio Git Clonado.
+  - Dependencias instaladas con Poetry.
+  - Uso de ambiente de development (<strong>FLASK_ENV=development</strong>).
+
+- En Gitlab:
+  - Repositorio Central de Git.
+  - El deploy de la aplicación se realizará automáticamente con cada push a main.
+  - Para que se pueda realizar correctamente tenga en cuenta las definiciones
+    de la cátedra respecto a los requisitos que debe cumplir el proyecto.
