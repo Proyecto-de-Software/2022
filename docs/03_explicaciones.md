@@ -5,3 +5,5 @@
 ## [Clase 1 - Poetry + Flask base :material-youtube:](https://youtu.be/b-wuFFbeWdg)
 
 ## [Clase 2 - MVC + Formas de estructurar código :material-youtube:](https://youtu.be/rvlMKB82DGM)
+
+## [Clase 3 - BBDD + Logs + SqlAlchemy :material-youtube:](https://youtu.be/c_FudnDDQbw)
