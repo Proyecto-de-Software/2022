@@ -17,4 +17,6 @@
 - [Sesiones - Cursada 2021](clase5_2) [:material-file:](clase5_2.pdf)[:material-youtube:](https://youtu.be/JkErOGTn9yY)
 - [SQLi - Cursada 2021](clase5_3) [:material-file:](clase5_3.pdf)[:material-youtube:](https://youtu.be/OtBF-WUOtO4) (Primeros 20 minutos del video)
 - [ORM](clase5_4) [:material-file:](clase5_4.pdf)[:material-youtube:](https://youtu.be/F9C7aG6XNks)
+- [API Rest](clase6_1) [:material-file:](clase5_1.pdf)
+* [JavaScript y DOM](clase6_2) ParteI (Introducción a JS y DOM)[:material-youtube:](https://youtu.be/c72-gbvxY-Q)- Parte II (objetos en  JavaScript): [:material-youtube:](https://youtu.be/qd8hhh7O8eQ)[:material-folder-zip:](clase6_2.zip)
 
