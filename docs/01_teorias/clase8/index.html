@@ -99,7 +99,7 @@ https://en.wikipedia.org/wiki/List_of_JavaScript_libraries
 
 * Vue.js, está más enfocado hacia la vista, y **puede ser implementado en el HTML de cualquier proyecto web** sin requerir cambios drásticos .
 
-* Los navegadores modernos poseen la extensión **Vue.js devtools** que nos asiste en el desarrollo (la versión de vue3 aún está en beta).
+* Los navegadores modernos poseen la extensión **Vue.js devtools** que nos asiste en el desarrollo.
 
 * Vue.js soporta todos los browsers que sean compatibles con [ES5-compliant](https://kangax.github.io/compat-table/es5/). (Ver [Versiones JS](https://www.w3schools.com/Js/js_versions.asp).)
 </script></section><section data-markdown><script type="text/template"># Model-View-Viewmodel en VueJS
@@ -123,11 +123,14 @@ Vue 3:
 
 * Intalar Vue CLI via **npm** (manejador de paquetes por defecto para Node.js):
 ```bash
-> npm init vue@latest
+> npm install -g @vue/cli
+> vue create <your-project-name>
 ....
 > cd <your-project-name>
 > npm install
-> npm run dev
+> vue serve 
+o
+> npm run dev 
 ```
 Esta es la opción recomendada para para **proyectos más grandes**.</script></section><section data-markdown><script type="text/template">
 # Incluyendolo de una CDN:
