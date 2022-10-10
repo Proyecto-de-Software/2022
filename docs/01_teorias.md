@@ -20,3 +20,5 @@
 - [API Rest](clase6_1) [:material-file:](clase5_1.pdf)
 * [JavaScript y DOM](clase6_2) ParteI (Introducción a JS y DOM)[:material-youtube:](https://youtu.be/c72-gbvxY-Q)- Parte II (objetos en  JavaScript): [:material-youtube:](https://youtu.be/qd8hhh7O8eQ)[:material-folder-zip:](clase6_2.zip)
 * [XSS + AJAX - Fetch - Async/Await + CORS](clase7) [:material-file:](clase7.pdf) [:material-folder-zip:](clase7.zip) [:material-youtube:](https://youtu.be/4EcKf0fxC_Q)
+* [Microservicios - Frameworks JS - Intro Vue](clase8) [:material-file:](clase8.pdf)
+* [Directivas Vue](clase8_2)[:material-youtube:](https://youtu.be/YUnBBnn2u9k)[:material-folder-zip:](clase8.zip)
