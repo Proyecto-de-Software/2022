@@ -22,3 +22,4 @@
 - [XSS + AJAX - Fetch - Async/Await + CORS](clase7) [:material-file:](clase7.pdf) [:material-folder-zip:](clase7.zip) [:material-youtube:](https://youtu.be/4EcKf0fxC_Q)
 - [Microservicios - Frameworks JS - Intro Vue](clase8) [:material-file:](clase8.pdf) [:material-youtube:](https://youtu.be/iwSOPjo01b8)
 	- [Directivas Vue](clase8_2)  [:material-file:](clase8_2.pdf) [:material-youtube:](https://youtu.be/YUnBBnn2u9k) [:material-folder-zip:](clase8.zip)
+- [Componentes Vue - CLI - Ruteo - Vuex](clase9) [:material-file:](clase9.pdf) [:material-folder-zip:](clase9.zip)

@@ -18,13 +18,17 @@
     <div class="reveal">
       <div class="slides"><section  data-markdown><script type="text/template">
 # Proyecto de Software
-</script></section><section  data-markdown><script type="text/template">
+</script></section><section  data-markdown><script type="text/template"># Seguimos con Vue.js
+
+![vue-roadmap](images/vue-roadmap.png)
+
+https://roadmap.sh/vue</script></section><section  data-markdown><script type="text/template">
 # Temario
 ### Vue.js
   - Componentes
-  - Vue cli
-  - Ruteo
-  - Vuex</script></section><section ><section data-markdown><script type="text/template"># Componentes Vue
+  - Vue CLI
+  - Ruteo: Vue Router
+  - Gestión de estado: Vuex</script></section><section ><section data-markdown><script type="text/template"># Componentes Vue
 
 * El sistema de componentes es un concepto importante.
 * Nos permite construir aplicaciones grandes a partir de componentes:
@@ -141,8 +145,14 @@ npm/yarn run serve
 * Generar los archivos necesarios para producción:
 ```bash
 npm/yarn run build
-```</script></section></section><section ><section data-markdown><script type="text/template">
-# Componentes single-file
+```</script></section></section><section  data-markdown><script type="text/template"># Actualmente muy usado: Vite
+
+* Mejor experiencia en desarrollo.
+* Mayor eficiencia en build de producción.
+* Multiframework.
+
+https://vitejs.dev/guide/
+</script></section><section ><section data-markdown><script type="text/template"># Componentes single-file
 
 * Para grandes proyectos las componentes utilizando **Vue.component** poseen varias **desventajas**:
   * Definiciones globales: cada componente debe tener un nombre único.
@@ -292,7 +302,7 @@ __SCRIPT_END__
 * Levantemos el servicio con **npm run serve** y veamos lo contruido con **npm run build**.
 </script></section></section><section ><section data-markdown><script type="text/template"># Ruteo en Vue
 
-* Para Vue 3 vamos a utilizar la librería [vue-router](https://github.com/vuejs/vue-router-next) con su [documentación](https://next.router.vuejs.org/).
+* Para Vue 3 vamos a utilizar la librería [vue-router](https://github.com/vuejs/routers) con su [documentación](https://router.vuejs.org/).
 </script></section><section data-markdown><script type="text/template"># vue-router
 
 * Instalación:
@@ -483,22 +493,19 @@ export default {
 }
 __SCRIPT_END__
 ```
-* Veamos el ejemplo con [Múltiples Contadores](./ejemplos/7_vuex/simple_vuex/). 
-</script></section></section><section  data-markdown><script type="text/template"># Para seguir leyendo: Vuejs
+* Veamos el ejemplo con [Múltiples Contadores](./ejemplos/7_vuex/simple_vuex/). </script></section></section><section  data-markdown><script type="text/template"># Actualmente vue.js eligió como manejador de estado un nuevo proyecto: Pinia.
 
-* Vue Router: https://next.router.vuejs.org/
-* Vue Vuex : https://next.vuex.vuejs.org/
+* Según la documentación oficial, es [VueX con otro nombre...](https://vuex.vuejs.org/)
+* https://pinia.vuejs.org/
+* Pinia vs VueX: https://pinia.vuejs.org/introduction.html#comparison-with-vuex
+* Veamos un ejemplo: https://github.com/piniajs/example-vue-3-vite</script></section><section  data-markdown><script type="text/template"># Para seguir leyendo: Vuejs
+
+* Vue Router: https://router.vuejs.org/
+* Vue Vuex : https://vuex.vuejs.org/ y Pinia: https://pinia.vuejs.org/
 * Webpack: https://www.youtube.com/watch?v=2UBKjshUwM8
 * Componentes y Plugins: https://madewithvuejs.com/
-* Vue 2 -> Vue 3: https://v3.vuejs.org/guide/migration/introduction.html </script></section><section  data-markdown><script type="text/template"># Para seguir leyendo: JS Frameworks 2
-
 * Gitlab.com usa vue: https://about.gitlab.com/2016/10/20/why-we-chose-vue/
-* https://hackernoon.com/the-status-of-javascript-libraries-frameworks-2018-beyond-3a5a7cae7513
-* https://bestofjs.org/
-* Promesas JS: https://slides.com/juanramb/promesas-en-javascript#/
-* Axios vs fetch: https://medium.com/@thejasonfile/fetch-vs-axios-js-for-making-http-requests-2b261cdd3af5
-* https://alligator.io/vuejs/rest-api-axios/</script></section><section  data-markdown><script type="text/template">
-# ¿Dudas?
+* Podcast Pinia vs Vuex - Vite vs Webpack para Vue: https://www.youtube.com/watch?v=FAmdgaYpaOc</script></section><section  data-markdown><script type="text/template"># ¿Dudas?
 </script></section><section  data-markdown><script type="text/template"># Fin
 
 </script></section></div>
