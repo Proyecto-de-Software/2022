@@ -24,3 +24,4 @@
 	- [Directivas Vue](clase8_2)  [:material-file:](clase8_2.pdf) [:material-youtube:](https://youtu.be/YUnBBnn2u9k) [:material-folder-zip:](clase8.zip)
 - [Componentes Vue - CLI - Ruteo - Vuex](clase9) [:material-file:](clase9.pdf) [:material-folder-zip:](clase9.zip) [:material-youtube:](https://youtu.be/9RE5hVdSsZw)
 - [OAuth - OpenId Connect - JWT](clase10_1) [:material-file:](clase10_1.pdf) [:material-folder-zip:](clase10_1.zip) - Ejemplo 2021 [:material-folder-zip:](clase10_2.zip)
+- Datos personales  y buenas prácticas para el desarrollo de apps - Mariano Cervellini [:material-youtube:](https://youtu.be/DZZax_TIWrw)
