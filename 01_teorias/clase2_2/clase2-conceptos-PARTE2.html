@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title>Conceptos básicos - parte II</title>
+    <link rel="shortcut icon" href="./favicon.ico" />
+    <link rel="stylesheet" href="./dist/reset.css" />
+    <link rel="stylesheet" href="./dist/reveal.css" />
+    <link rel="stylesheet" href="./dist/theme/league.css" id="theme" />
+    <link rel="stylesheet" href="./css/highlight/base16/zenburn.css" />
+
+    <link rel="stylesheet" href="./_assets/proyecto.css" />
+
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides"><section ><section data-markdown><script type="text/template">
+
+# Proyecto de Software
+
+## Conceptos básicos (cont.)
+
+### Cursada 2022
+</script></section><section data-markdown><script type="text/template">
+# ¿Qué veremos hoy?
+
+- Repaso de los conceptos básicos.
+- HTML semántico.
+- Accesibilidad web.
+- Validadores
+</script></section></section><section ><section data-markdown><script type="text/template">
+# HTML semántico
+
+## ¿A qué nos referimos?
+</script></section><section data-markdown><script type="text/template">
+#  HTML5 introdujo elementos estructurales
+
+![HTMLsemantico](images/semantic-html.png) 
+
+Imagen obtenida de [Interneting Is Hard](https://www.internetingishard.com/html-and-css/semantic-html/)
+</script></section><section data-markdown><script type="text/template">
+# article y section
+
+
+![HTMLsemantico1](images/html-article-section.png)
+
+Imagen obtenida de [Interneting Is Hard](https://internetingishard.com/html-and-css/semantic-html/)
+</script></section><section data-markdown><script type="text/template">
+# Otros elementos
+
+- **header**, **footer**,  **nav** y  **aside**
+- **time** y **address**
+- **figure** y **figcaption**
+
+- Más info en [cap. 12 del tutorial Interneting Is Hard](https://www.internetingishard.com/html-and-css/semantic-html/)
+</script></section></section><section  data-markdown><script type="text/template">
+# ¿Qué pasa cuando accedemos a la web con la pantalla apagada?
+
+# ¿Qué pasa si no disponemos de un mouse? ¿O un teclado?
+
+## Probemos algo...
+
+- [Sitio educ.ar](https://www.educ.ar/)
+- [Sitio Diario El Día](https://www.eldia.com/)
+</script></section><section  data-markdown><script type="text/template">
+# Algunas reflexiones
+
+
+- [OMS: discapacidad y salud - Datos diciembre-2020](http://www.who.int/mediacentre/factsheets/fs352/es/)
+
+	- Según la OMS, alrededor del 15% de la población mundial, o sea más de **MIL millones de personas**, padece alguna forma de discapacidad.
+	- Entre 110 millones y 190 millones de adultos tienen **dificultades considerables para funcionar**.
+	- Las personas con discapacidad tienen menos acceso a los servicios de asistencia sanitaria.
+
+- [OMS: ceguera y discapacidad visual - Datos febrero-2021](https://www.who.int/es/news-room/fact-sheets/detail/blindness-and-visual-impairment)
+	- A nivel mundial, se estima que aproximadamente 1300 millones de personas viven con **alguna forma de deficiencia visual**.
+	</script></section><section ><section data-markdown><script type="text/template">
+# Accesibilidad web
+
+> **"The power of the Web is in its universality. Access  by everyone regardless of disability is an essential aspect".**
+
+Tim Berners-Lee, W3C
+</script></section><section data-markdown><script type="text/template">
+# ¿Qué involucra?
+
+- Hay personas que tienen dificultad para leer o comprender textos. 
+- Hay personas que no pueden ver, escuchar o moverse. 
+- No todos utilizan mouse y teclados. 
+- Conexión a Internet lenta. 
+- Se trabaja con tecnologías muy diversas. 
+- Pantallas de sólo texto, pequeñas o de distintas resoluciones. 
+</script></section><section data-markdown><script type="text/template">
+# **WAI**: Web Accessibility Initiative
+
+## Objetivos
+
+Desarrollar  estrategias, pautas, recursos para hacer la Web accesible a **personas con discapacidad**.
+Pero también será accesible en **otros entornos y aplicaciones**, como navegador de voz, teléfono móvil, PC de automóvil.
+Y ante limitaciones bajo las que opere, como entornos ruidosos, habitaciones infra o supra iluminadas, entorno de manos libres.
+</script></section><section data-markdown><script type="text/template">
+
+# **WAI**: Web Accessibility Initiative
+
+![Componentes WAI](images/wai.png)
+
+Sacado de https://www.w3.org/WAI/standards-guidelines/es
+</script></section><section data-markdown><script type="text/template"># **WAI**: Web Accessibility Initiative
+
+- Para aplicaciones de usuario: [WAI-User Agent Accessibility Guidelines (UAAG)](https://www.w3.org/WAI/standards-guidelines/uaag/)
+
+- Para herramientas de autor: [WAI-Authoring Tool Accessibility Guidelines (ATAG)](https://www.w3.org/WAI/standards-guidelines/atag/)
+
+- Para contenido web: [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/WAI/standards-guidelines/wcag/)
+	- WCAG 1.0
+	- WCAG 2.0
+	- **WCAG 2.1** (2018)
+</script></section></section><section ><section data-markdown><script type="text/template">
+# Guías para contenido web accesible: **WCAG**
+
+
+- Definen **principios de diseño** web.
+- Cada principio tiene **pautas**.
+- Cada pauta tiene **criterios testeables**.
+- Cada criterio tiene **nivel de conformidad: A, AA y AAA**. 
+</script></section><section data-markdown><script type="text/template">
+# Principios de diseño para el Contenido Web (WCAG) 2.1
+
+- **1- Perceptible**: la información y los componentes de la interfaz de usuario deben ser mostrados a los usuarios en formas que ellos puedan entender. 
+- **2- Operable:** los componentes de la interfaz de usuario y la navegación debe ser manejable.
+- **3- Comprensible:** la información y las operaciones de usuarios deben ser comprensibles.
+- **4- Robustez:** el contenido deber ser suficientemente robusto para que pueda ser bien interpretado por una gran variedad de agentes de usuario, incluyendo tecnologías de asistencia.</script></section><section data-markdown><script type="text/template"># Cumplir pautas principio 1 - Perceptible
+
+* Proporcionar [alternativas textuales](https://www.w3.org/WAI/WCAG21/quickref/#text-alternatives) para contenido no textual.
+* Proporcionar [subtítulos y otras alternativas](https://www.w3.org/WAI/WCAG21/quickref/#time-based-media) para multimedia.
+* Crear contenido que se pueda [presentar de diferentes formas](https://www.w3.org/WAI/WCAG21/quickref/#adaptable), incluyendo a las tecnologías de apoyo, sin perder información.
+* Facilitar que los usuarios puedan [ver y oír el contenido](https://www.w3.org/WAI/WCAG21/quickref/#distinguishable).
+</script></section><section data-markdown><script type="text/template"># Cumplir pautas principio 2 - Operable
+
+* Proporcionar acceso a todas las funcionalidades [mediante el teclado](https://www.w3.org/WAI/WCAG21/quickref/#keyboard-accessible).
+* Conceder a los usuarios [tiempo suficiente](https://www.w3.org/WAI/WCAG21/quickref/#enough-time) para leer y usar el contenido.
+* No usar contenido que pudiera causar [convulsiones](https://www.w3.org/WAI/WCAG21/quickref/#seizure) o reacciones físicas.
+* Ayudar a los usuarios a [navegar y encontrar el contenido](https://www.w3.org/WAI/WCAG21/quickref/#navigable).
+* Facilitar [métodos de entrada diferentes al teclado](https://www.w3.org/WAI/WCAG21/quickref/#navigation-mechanisms).</script></section><section data-markdown><script type="text/template"># Cumplir pautas principio 3 - Comprensible
+
+* Proporcionar texto [legible y comprensible](https://www.w3.org/WAI/WCAG21/quickref/#readable).
+* Proporcionar contenido que sea [predecible](https://www.w3.org/WAI/WCAG21/quickref/#predictable) en apariencia y operación.
+* Ayudar a los usuarios a [evitar y corregir errores](https://www.w3.org/WAI/WCAG21/quickref/#input-assistance).
+</script></section><section data-markdown><script type="text/template"># Cumplir pautas principio 4 - Robustez
+
+* Maximizar la [compatibilidad](https://www.w3.org/WAI/WCAG21/quickref/#compatible) con herramientas de usuario actuales y futuras.
+
+</script></section></section><section  data-markdown><script type="text/template">
+# Marco legal 
+
+> En distintos países existen normativas y leyes que obligan a que sitios web y apps nativas sean accesibles.
+</script></section><section ><section data-markdown><script type="text/template">
+# En Argentina
+## Ley Nacional de Accesibilidad N° 26.653
+
+> La [ley N° 26.653](http://servicios.infoleg.gob.ar/infolegInternet/anexos/175000-179999/175694/norma.htm) de **"Accesibilidad Web"** busca promover la accesibilidad de la información, facilitando especialmente el acceso a todas las personas con discapacidad con el objeto de **garantizarles la igualdad real de oportunidades y trato**, evitando así todo tipo de discriminación.
+
+Sacado de: https://www.argentina.gob.ar/jefatura/innovacion-publica/onti/accesibilidad-web</script></section><section data-markdown><script type="text/template"># ONTI:
+- La Oficina Nacional de Tecnologías de la Información (**ONTI**) tiene el rol de hacer cumplir la ley.
+- **Monitorea** y evalúa la accesibilidad de sitios web.
+- Analiza y aprueba estándares de accesibilidad web vigentes requeridos.
+- **Realiza capacitaciones** sobre pautas de accesibilidad web.
+- Desarrolla **recomendaciones y guías** para facilitar el cumplimiento de los estándares de accesibilidad.</script></section><section data-markdown><script type="text/template"># La ley comprende:
+
+- El Estado nacional, y sus organismos descentralizados o autárquicos.
+- Entes públicos no estatales.
+- Empresas del Estado.
+- Empresas privadas concesionarias de servicios públicos.
+- Empresas prestadoras o contratistas de bienes y servicios.
+- Instituciones u organizaciones de la sociedad civil que sean beneficiarias o reciban subsidios, donaciones o condonaciones, por parte del Estado o celebren con el mismo contrataciones de servicios.</script></section></section><section  data-markdown><script type="text/template">
+# Para  reflexionar...
+
+- ¿Por qué les parece que es  importante cumplir con los estándares?
+
+- ¿Cómo nos aseguramos que se cumplen los estándares? 
+</script></section><section  data-markdown><script type="text/template">
+# Curso de accesibilidad web de la facultad
+
+![curso de accesibilidad web](images/curso_accesibilidad_web.png)
+
+[+Info](https://actividades.linti.unlp.edu.ar/courses/course-v1:UNLP+AW+2021_T4/about)</script></section><section ><section data-markdown><script type="text/template">
+# Validadores 
+
+## HTML y CSS
+
+- Validador HTML:  http://validator.w3.org/
+- Validador de Hojas de Estilos: http://jigsaw.w3.org/css-validator/
+- Unicorn https://validator.w3.org/unicorn/
+- NU: https://validator.w3.org/nu/
+</script></section><section data-markdown><script type="text/template">
+# Validadores 
+
+## Accesibilidad
+
+- WAVE: http://wave.webaim.org
+- TAW: http://www.tawdis.net
+- Tingtun Checker: http://checkers.eiii.eu/ 
+- Herramientas de la W3C: https://www.w3.org/WAI/ER/tools/
+
+## Probemos algunos sitios <!-- .element: class="fragment" data-fragment-index="1" -->
+</script></section></section><section  data-markdown><script type="text/template">
+
+# Algunas referencias
+
+- [Principios WAI](http://accesibilidadweb.dlsi.ua.es/?menu=principios-2.1)
+- [Componentes WAI](https://www.w3.org/WAI/fundamentals/components/)
+- [WCAG 2.1 de un vistazo](https://www.w3.org/WAI/standards-guidelines/wcag/glance/es)
+- [Accessible Rich Internet Applications (ARIA)](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA)
+</script></section><section  data-markdown><script type="text/template">
+# Seguimos la próxima ...
+
+
+</script></section></div>
+    </div>
+
+    <script src="./dist/reveal.js"></script>
+
+    <script src="./plugin/markdown/markdown.js"></script>
+    <script src="./plugin/highlight/highlight.js"></script>
+    <script src="./plugin/zoom/zoom.js"></script>
+    <script src="./plugin/notes/notes.js"></script>
+    <script src="./plugin/math/math.js"></script>
+    <script>
+      function extend() {
+        var target = {};
+        for (var i = 0; i < arguments.length; i++) {
+          var source = arguments[i];
+          for (var key in source) {
+            if (source.hasOwnProperty(key)) {
+              target[key] = source[key];
+            }
+          }
+        }
+        return target;
+      }
+
+      // default options to init reveal.js
+      var defaultOptions = {
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        transition: 'default', // none/fade/slide/convex/concave/zoom
+        plugins: [
+          RevealMarkdown,
+          RevealHighlight,
+          RevealZoom,
+          RevealNotes,
+          RevealMath
+        ]
+      };
+
+      // options from URL query string
+      var queryOptions = Reveal().getQueryHash() || {};
+
+      var options = extend(defaultOptions, {}, queryOptions);
+    </script>
+
+
+    <script>
+      Reveal.initialize(options);
+    </script>
+  </body>
+</html>
