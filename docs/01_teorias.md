@@ -25,3 +25,4 @@
 - [Componentes Vue - CLI - Ruteo - Vuex](clase9) [:material-file:](clase9.pdf) [:material-folder-zip:](clase9.zip) [:material-youtube:](https://youtu.be/9RE5hVdSsZw)
 - [OAuth - OpenId Connect - JWT](clase10_1) [:material-file:](clase10_1.pdf) [:material-folder-zip:](clase10_1.zip) - Ejemplo 2021 [:material-folder-zip:](clase10_2.zip)
 - Datos personales  y buenas prácticas para el desarrollo de apps - Mariano Cervellini [:material-file:](Datos-Personales_Politica-de-Privacidad_TyC_UNLP-Informatica-2022.pdf) [:material-youtube:](https://youtu.be/DZZax_TIWrw)
+- [Autenticación: Flask - JWT - Vue.js](clase11) [:material-file:](clase11.pdf) [:material-folder-zip:](clase11.zip) [:material-youtube:](https://youtu.be/IXtBfqVLf0w)
